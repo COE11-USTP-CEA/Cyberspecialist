@@ -7,10 +7,6 @@ import spark.ModelAndView;
 import spark.template.freemarker.FreeMarkerEngine;
 import static spark.Spark.*;
 
-/**
- *
- * @author jaypax
- */
 public class DemoMain {
 
     public static void main(String[] args) {
@@ -18,8 +14,8 @@ public class DemoMain {
         
         get("/hello", (req, res) -> {
             Map<String, Object> model = new HashMap<>();
-            model.put("title","SparkJava Demo");
-            model.put("message", "Hello Freemarker!");
+            model.put("title","Job Board");
+            model.put("message","Welcome to Job Social!");
             return new ModelAndView(model, "hello.ftl"); // located in src/test/resources/spark/template/freemarker
         }, new FreeMarkerEngine());
     }
