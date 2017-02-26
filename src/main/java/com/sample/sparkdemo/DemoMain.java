@@ -16,6 +16,7 @@ public class DemoMain {
             Map<String, Object> model = new HashMap<>();
             model.put("title","Job Board");
             model.put("message","Welcome to Job Social!");
+            
             return new ModelAndView(model, "hello.ftl"); // located in src/test/resources/spark/template/freemarker
         }, new FreeMarkerEngine());
     }
