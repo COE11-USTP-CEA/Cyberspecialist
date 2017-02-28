@@ -12,17 +12,18 @@ public class DemoMain {
     public static void main(String[] args) {
         staticFiles.location("/css"); // Static files
         
-        get("/hello", (req, res) -> {
+        get("/", (req, res) -> {
             Map<String, Object> model = new HashMap<>();
-            model.put("title","Job Board");
+            model.put("title","Job Social");
             model.put("message","Welcome to Job Social!");
             
-            return new ModelAndView(model, "hello.ftl"); // located in src/test/resources/spark/template/freemarker
+            return new ModelAndView(model, "index.ftl"); // located in src/test/resources/spark/template/freemarker
         }, new FreeMarkerEngine());
-        get("/add", (req, res) -> {
-            Map<String, Object> job = new HashMap<>();
-            job.put("title2","Add Job");
-            return new ModelAndView(job, "AddJob.ftl"); // located in src/test/resources/spark/template/freemarker
+        get("/about", (req, res) -> {
+            Map<String, Object> model = new HashMap<>();
+            model.put("title2","About Job Social");
+            model.put("message","Job Social");
+            return new ModelAndView(model, "about.ftl"); // located in src/test/resources/spark/template/freemarker
         }, new FreeMarkerEngine());
 
     }
