@@ -19,5 +19,11 @@ public class DemoMain {
             
             return new ModelAndView(model, "hello.ftl"); // located in src/test/resources/spark/template/freemarker
         }, new FreeMarkerEngine());
+        get("/add", (req, res) -> {
+            Map<String, Object> job = new HashMap<>();
+            job.put("title2","Add Job");
+            return new ModelAndView(job, "AddJob.ftl"); // located in src/test/resources/spark/template/freemarker
+        }, new FreeMarkerEngine());
+
     }
 }

@@ -1,8 +1,11 @@
 header {
-	text-align: center;
+	text-align: right;
 	padding: 15px;
 	text-transform: uppercase;
 	
+}
+a:hover{
+	color: red;
 }
 
 body{
@@ -10,16 +13,17 @@ body{
 	background-image: url("http://s.hswstatic.com/gif/deep-linking-orig.jpg");
 }
 h1{
-	font-size: 60px;
+	text-align: center;
+	font-size: 80px;
 	font-style: italic;
 	font-weight: bolder;
-	color: lightsteelblue;
+	color: darkblue;
 	padding: 30px;
 }
-img{
-	align-items: center;
+h2{
+	color: darkgreen;
+	font-size: 50px;
 }
-
 h3{
 	
 	padding:10px;

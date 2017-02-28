@@ -8,10 +8,11 @@
   </head>
   <body>
   <header>
-    <h1>${message}</h1>
+  <a href="AddJob.ftl">Add Job</a>
   </header>
+  <h1>${message}</h1>
   <h2>The Perfect Place For Job Hiring and Job Hunting</h2>
-    <img src="http://www.careerprofiles.info/images/job-search-strategies-small.jpg"/>
+    <img src="http://www.careerprofiles.info/images/job-search-strategies-small.jpg" height= "65%" width= "100%" />
     
     <h3>Tired of searching for a job? Or do you have difficulties on advertising on a position?
     Well you have come at the right place!<br />
