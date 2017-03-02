@@ -58,7 +58,7 @@
                         <a href="/about">About</a>
                     </li>
                     <li>
-                        <a href="">Add Job</a>
+                        <a href="/add">Add Job</a>
                     </li>
                     <li>
                         <a href="">Contact</a>
@@ -128,6 +128,7 @@
                     </h2>
                     <hr>
                     <img class="img-responsive img-border img-left" src="img/intro.jpg" alt="">
+                    <img class="img-responsive img-border img-right" src="img/meh.jpg" alt="">
                     <hr class="visible-xs">
                     <p></p>
                     <p></p>

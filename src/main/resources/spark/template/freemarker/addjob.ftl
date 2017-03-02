@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>${title2}</title>
+    <title>${title}</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -32,8 +32,7 @@
 
 <body>
 
-    <div class="brand">${message}</div>
-
+    <div class="brand">${title}</div>
     <!-- Navigation -->
     <nav class="navbar navbar-default" role="navigation">
         <div class="container">
@@ -55,10 +54,10 @@
                         <a href="/">Home</a>
                     </li>
                     <li>
-                        <a href="#">About</a>
+                        <a href="/about">About</a>
                     </li>
                     <li>
-                        <a href="/add">Add Job</a>
+                        <a href="#">Add Job</a>
                     </li>
                     <li>
                         <a href="">Contact</a>
@@ -76,62 +75,45 @@
             <div class="box">
                 <div class="col-lg-12">
                     <hr>
-                    <h2 class="intro-text text-center">About
-                        <strong>Job Social</strong>
+                    <h2 class="intro-text text-center">Add 
+                        <strong>Job</strong> Here
                     </h2>
                     <hr>
                 </div>
-                <div class="col-md-6">
-                    <img class="img-responsive img-border-left" src="img/6.jpg" alt="">
+                <div class="col-lg-12 text-center">
+                    <form action="confirmation.ftl" method="post">
+  <div class="form-group">
+    <label for="CompanyName">Company Name</label>
+    <input type="Company" class="form-control" id="CompanyName" placeholder="Company Name">
+  </div>
+  <div class="form-group">
+    <label for="Companyaddress">Company Address</label>
+    <input type="address" class="form-control" id="Companyaddress" placeholder="Address">
+  </div>
+  <div class="form-group">
+    <label for="joboffer">Offered Job</label>
+    <input type="job" class="form-control" id="joboffer" placeholder="Offered Job">
+  </div>
+  <div class="form-group">
+    <label for="qualifications">Qualified Employee</label>
+    <input type="qualifications" class="form-control" id="qualifications" placeholder="Qualifications">
+  </div>
+  <div class="form-group">
+    <label for="requirements">Requirements</label>
+    <input type="requirements" class="form-control" id="requirements" placeholder="What to Bring">
+  </div>
+  <button type="submit" class="btn btn-default">
+  <a href="/confirm">Submit</a></button>
+</form>
                 </div>
-                <div class="col-md-6">
-                    <p>Job Social's main goal is to help people find jobs they wanted to apply and the same way help those hiring companies to post their ads here.</p>
-                    <p>Job Social is an employment website that deals specifically with employment or careers. This webpage displays numerous job offers. If you're an employer, you can add and delete job hirings. <br /> And if you're an employee, you can find suitable jobs based on your qualifications.</p>
+                <div class="col-lg-12 text-center">
+                    <ul class="pager">
+                        <li class="previous"><a href="#">&larr; Older</a>
+                        </li>
+                        <li class="next"><a href="#">Newer &rarr;</a>
+                        </li>
+                    </ul>
                 </div>
-                <div class="clearfix"></div>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="box">
-                <div class="col-lg-12">
-                    <hr>
-                    <h2 class="intro-text text-center">Our
-                        <strong>Team</strong>
-                    </h2>
-                    <hr>
-                </div>
-                <div class="col-sm-4 text-center">
-                    <img class="img-responsive" src="img/r.jpg" alt="">
-                    <h3>Rossel Jay Pajo
-                        <small>lyssel18@gmail.com</small>
-                    </h3>
-                </div>
-                <div class="col-sm-4 text-center">
-                    <img class="img-responsive" src="img/8.jpg" alt="">
-                    <h3>Benjoe Gaburno
-                        <small>Ggaburno@gmail.com</small>
-                    </h3>
-                </div>
-                <div class="col-sm-4 text-center">
-                    <img class="img-responsive" src="img/10.jpg" alt="">
-                    <h3>Dinmark Taguic
-                        <small>dinmarktaguic@gmail.com</small>
-                    </h3>
-                </div>
-                 <div class="col-sm-4 text-center">
-                    <img class="img-responsive" src="img/9.jpg" alt="">
-                    <h3>Angel Dorothy Sagrado
-                        <small>aey.toroba@gmail.com</small>
-                    </h3>
-                </div>
-                 <div class="col-sm-4 text-center">
-                    <img class="img-responsive" src="img/11.jpg" alt="">
-                    <h3>Jessa Quimada Aromin
-                        <small>jeanaromin27@gmail.com</small>
-                    </h3>
-                </div>
-                <div class="clearfix"></div>
             </div>
         </div>
 
@@ -142,7 +124,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <p>Copyright &copy; Job Social 2017</p>
+                     <p>Copyright &copy; Job Social 2017</p>
                     <p>All Rights Reserved</p>
                 </div>
             </div>

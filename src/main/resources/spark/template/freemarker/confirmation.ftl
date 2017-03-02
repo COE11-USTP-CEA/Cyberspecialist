@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>${title2}</title>
+    <title>${title}</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -76,65 +76,20 @@
             <div class="box">
                 <div class="col-lg-12">
                     <hr>
-                    <h2 class="intro-text text-center">About
-                        <strong>Job Social</strong>
+                    <h2 class="intro-text text-center">
+                        <strong>Confirmation</strong>
                     </h2>
                     <hr>
                 </div>
                 <div class="col-md-6">
-                    <img class="img-responsive img-border-left" src="img/6.jpg" alt="">
+                    <img class="img-responsive img-border-left" src="img/j.jpg" alt="">
                 </div>
                 <div class="col-md-6">
-                    <p>Job Social's main goal is to help people find jobs they wanted to apply and the same way help those hiring companies to post their ads here.</p>
-                    <p>Job Social is an employment website that deals specifically with employment or careers. This webpage displays numerous job offers. If you're an employer, you can add and delete job hirings. <br /> And if you're an employee, you can find suitable jobs based on your qualifications.</p>
+                    <strong>CONGRATULATIONS! IT IS NOW REGISTERED</strong>
                 </div>
                 <div class="clearfix"></div>
             </div>
         </div>
-
-        <div class="row">
-            <div class="box">
-                <div class="col-lg-12">
-                    <hr>
-                    <h2 class="intro-text text-center">Our
-                        <strong>Team</strong>
-                    </h2>
-                    <hr>
-                </div>
-                <div class="col-sm-4 text-center">
-                    <img class="img-responsive" src="img/r.jpg" alt="">
-                    <h3>Rossel Jay Pajo
-                        <small>lyssel18@gmail.com</small>
-                    </h3>
-                </div>
-                <div class="col-sm-4 text-center">
-                    <img class="img-responsive" src="img/8.jpg" alt="">
-                    <h3>Benjoe Gaburno
-                        <small>Ggaburno@gmail.com</small>
-                    </h3>
-                </div>
-                <div class="col-sm-4 text-center">
-                    <img class="img-responsive" src="img/10.jpg" alt="">
-                    <h3>Dinmark Taguic
-                        <small>dinmarktaguic@gmail.com</small>
-                    </h3>
-                </div>
-                 <div class="col-sm-4 text-center">
-                    <img class="img-responsive" src="img/9.jpg" alt="">
-                    <h3>Angel Dorothy Sagrado
-                        <small>aey.toroba@gmail.com</small>
-                    </h3>
-                </div>
-                 <div class="col-sm-4 text-center">
-                    <img class="img-responsive" src="img/11.jpg" alt="">
-                    <h3>Jessa Quimada Aromin
-                        <small>jeanaromin27@gmail.com</small>
-                    </h3>
-                </div>
-                <div class="clearfix"></div>
-            </div>
-        </div>
-
     </div>
     <!-- /.container -->
 
