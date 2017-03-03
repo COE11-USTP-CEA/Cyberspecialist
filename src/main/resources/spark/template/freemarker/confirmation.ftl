@@ -86,6 +86,11 @@
                 </div>
                 <div class="col-md-6">
                     <strong>CONGRATULATIONS! IT IS NOW REGISTERED</strong>
+                    <h2>Company Name:${name}</h2>
+                    <h2>Company Address:${address}</h2>
+                    <h2>Offered Job:${job}</h2>
+                    <h2>Qualifications:${qualification}</h2>
+                    <h2>Requirements:${requirement}</h2>
                 </div>
                 <div class="clearfix"></div>
             </div>

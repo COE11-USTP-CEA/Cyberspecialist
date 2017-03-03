@@ -81,29 +81,29 @@
                     <hr>
                 </div>
                 <div class="col-lg-12 text-center">
-                    <form action="confirmation.ftl" method="post">
+                    <form action="/confirm" method="post">
   <div class="form-group">
-    <label for="CompanyName">Company Name</label>
-    <input type="Company" class="form-control" id="CompanyName" placeholder="Company Name">
+    <label for="exampleInputName">Company Name</label>
+    <input type="nameofitem" name="CompanyName" class="form-control" id="InputItemName" placeholder="Company Name">
   </div>
   <div class="form-group">
-    <label for="Companyaddress">Company Address</label>
-    <input type="address" class="form-control" id="Companyaddress" placeholder="Address">
+    <label for="exampleInputAddress1">Company Address</label>
+    <input type="address" name="CompanyAddress" class="form-control" id="InputItemAddress" placeholder="Company Address">
   </div>
   <div class="form-group">
-    <label for="joboffer">Offered Job</label>
-    <input type="job" class="form-control" id="joboffer" placeholder="Offered Job">
-  </div>
+    <label for="exampleInputJob1">Offered Job</label>
+    <input type="job" name="JobOffer" class="form-control" id="InputItemJob" placeholder="Offered Job">
   <div class="form-group">
-    <label for="qualifications">Qualified Employee</label>
-    <input type="qualifications" class="form-control" id="qualifications" placeholder="Qualifications">
+    <label for="exampleInputQualifications1">Qualified Employee</label>
+    <input type="qualify" name="qualification" class="form-control" id="InputItemQualifications" placeholder="Qualifications">
   </div>
   <div class="form-group">
     <label for="requirements">Requirements</label>
-    <input type="requirements" class="form-control" id="requirements" placeholder="What to Bring">
+    <input type="requirement" name="requirements" class="form-control" id="InputItemrequirements" placeholder="What to Bring">
   </div>
   <button type="submit" class="btn btn-default">
-  <a href="/confirm">Submit</a></button>
+    Submit
+  </button>
 </form>
                 </div>
                 <div class="col-lg-12 text-center">
