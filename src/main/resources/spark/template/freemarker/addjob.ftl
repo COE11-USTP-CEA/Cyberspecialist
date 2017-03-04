@@ -60,7 +60,7 @@
                         <a href="#">Add Job</a>
                     </li>
                     <li>
-                        <a href="">Contact</a>
+                        <a href="">Job List</a>
                     </li>
                 </ul>
             </div>
